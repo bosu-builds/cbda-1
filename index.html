@@ -1,0 +1,2014 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+    <title>CBDA — Child Brain Development Academy</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://images.unsplash.com">
+    <link rel="preload" as="image" href="./images/m-m-w.webp">
+    <link
+      href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300;0,9..144,500;0,9..144,600;1,9..144,300;1,9..144,400&family=Plus+Jakarta+Sans:wght@300;400;500;600&display=swap"
+      rel="stylesheet">
+    <link rel="stylesheet" href="./index.css">
+  </head>
+  <body>
+    <div class="shell">
+      <!-- ═══ SIDEBAR ═══ -->
+      <aside class="sidebar">
+        <div class="sb-brand">
+          <div class="sb-brand-ico">
+            <svg
+              width="22"
+              height="22"
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="white"
+              stroke-width="1.8"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+            >
+              <path
+                d="M12 2C8 2 5 5 5 9c0 2.4 1.1 4.5 2.8 5.9L7 20h10l-.8-5.1C17.9 13.5 19 11.4 19 9c0-4-3-7-7-7z">
+              <line x1="9" y1="20" x2="15" y2="20">
+              <line x1="10" y1="23" x2="14" y2="23">
+            </svg>
+          </div>
+          <div>
+            <div class="sb-brand-name">
+              Child Brain<br>Development Academy
+            </div>
+            <div class="sb-brand-sub">Nurturing Minds Since 2023</div>
+          </div>
+        </div>
+
+        <div class="sb-sec">
+          <div class="sb-sec-lbl">Main</div>
+
+          <button class="nb on" onclick="go('home', this)">
+            <div class="nb-ico">
+              <svg
+                width="15"
+                height="15"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="2"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              >
+                <path
+                  d="M3 9.5L12 3l9 6.5V20a1 1 0 01-1 1H4a1 1 0 01-1-1V9.5z">
+                <path d="M9 21V12h6v9">
+              </svg>
+            </div>
+            Home
+          </button>
+
+          <button class="nb" onclick="go('programs', this)">
+            <div class="nb-ico">
+              <svg
+                width="15"
+                height="15"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="2"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              >
+                <path
+                  d="M12 2C8 2 5 5 5 9c0 2.4 1.1 4.5 2.8 5.9L7 20h10l-.8-5.1C17.9 13.5 19 11.4 19 9c0-4-3-7-7-7z">
+                <line x1="9" y1="20" x2="15" y2="20">
+              </svg>
+            </div>
+            Programmes
+            <span class="nb-badge">New</span>
+          </button>
+
+          <button class="nb" onclick="go('about', this)">
+            <div class="nb-ico">
+              <svg
+                width="15"
+                height="15"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="2"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              >
+                <path d="M2 3h6a4 4 0 014 4v14a3 3 0 00-3-3H2z">
+                <path d="M22 3h-6a4 4 0 00-4 4v14a3 3 0 013-3h7z">
+              </svg>
+            </div>
+            About Us
+          </button>
+
+          <button class="nb" onclick="go('games', this)">
+            <div class="nb-ico">
+              <svg
+                width="15"
+                height="15"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="2"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              >
+                <rect x="2" y="7" width="20" height="14" rx="2">
+                <path d="M16 7V5a2 2 0 00-2-2h-4a2 2 0 00-2 2v2">
+                <line x1="12" y1="12" x2="12" y2="16">
+                <line x1="10" y1="14" x2="14" y2="14">
+              </svg>
+            </div>
+            Game Boards & Worksheets
+          </button>
+        </div>
+
+        <div class="sb-sec">
+          <div class="sb-sec-lbl">Community</div>
+
+          <button class="nb" onclick="go('events', this)">
+            <div class="nb-ico">
+              <svg
+                width="15"
+                height="15"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="2"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              >
+                <rect x="3" y="4" width="18" height="18" rx="2">
+                <line x1="16" y1="2" x2="16" y2="6">
+                <line x1="8" y1="2" x2="8" y2="6">
+                <line x1="3" y1="10" x2="21" y2="10">
+              </svg>
+            </div>
+            Events & Gallery
+          </button>
+
+          <button class="nb" onclick="go('contact', this)">
+            <div class="nb-ico">
+              <svg
+                width="15"
+                height="15"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="2"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              >
+                <path
+                  d="M21 15a2 2 0 01-2 2H7l-4 4V5a2 2 0 012-2h14a2 2 0 012 2z">
+              </svg>
+            </div>
+            Contact Us
+          </button>
+        </div>
+
+        <div class="sb-bot">
+          <button class="sb-cta" onclick="go('contact', null)">
+            <svg
+              width="14"
+              height="14"
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="currentColor"
+              stroke-width="2"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+            >
+              <rect x="3" y="4" width="18" height="18" rx="2">
+              <line x1="16" y1="2" x2="16" y2="6">
+              <line x1="8" y1="2" x2="8" y2="6">
+              <line x1="3" y1="10" x2="21" y2="10">
+            </svg>
+            Start Your Child’s Journey
+          </button>
+        </div>
+      </aside>
+
+      <!-- ═══ MAIN ═══ -->
+      <main class="main">
+        <!-- Mobile Header -->
+        <header class="mob-hd">
+          <div class="mob-lg">
+            <div class="mob-lg-ico">
+              <svg
+                width="16"
+                height="16"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="white"
+                stroke-width="2"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              >
+                <path
+                  d="M12 2C8 2 5 5 5 9c0 2.4 1.1 4.5 2.8 5.9L7 20h10l-.8-5.1C17.9 13.5 19 11.4 19 9c0-4-3-7-7-7z">
+              </svg>
+            </div>
+            <div class="mob-lg-t">CB<span>DA</span></div>
+          </div>
+          <button class="mob-btn" onclick="go('contact', null)">
+            <svg
+              width="12"
+              height="12"
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="currentColor"
+              stroke-width="2.5"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+            >
+              <rect x="3" y="4" width="18" height="18" rx="2">
+              <line x1="16" y1="2" x2="16" y2="6">
+              <line x1="8" y1="2" x2="8" y2="6">
+              <line x1="3" y1="10" x2="21" y2="10">
+            </svg>
+            Start Your Child’s Journey
+          </button>
+        </header>
+
+        <!-- ═ VIEW 1: HOME ═ -->
+        <div id="v-home" class="view on">
+          <section class="hero">
+            <div class="hero-bg"></div>
+            <div class="hero-ov"></div>
+            <div class="hero-c">
+              <div class="hero-pill">
+                <div class="pill-dot"></div>
+                <span class="pill-txt">Now Enrolling — Term 3, 2026</span>
+              </div>
+              <h1 class="hero-h1">
+                Where young minds<br><em>bloom</em> into<br>brilliance
+              </h1>
+              <p class="hero-sub">
+                Science-backed cognitive development programmes for children
+                aged 6–12. Building thinkers, creators, and leaders of tomorrow.
+              </p>
+              <div class="hero-btns">
+                <button class="btn-w" onclick="go('programs', null)">
+                  Explore Programmes
+                  <svg
+                    width="14"
+                    height="14"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-width="2.5"
+                    stroke-linecap="round"
+                  >
+                    <path d="M5 12h14M12 5l7 7-7 7">
+                  </svg>
+                </button>
+                <button class="btn-ow" onclick="go('contact', null)">
+                  Start Your Child’s Journey
+                </button>
+              </div>
+            </div>
+          </section>
+
+          <div class="stats">
+            <div class="stat">
+              <div class="stat-n">150+</div>
+              <div class="stat-l">Graduates since 2023</div>
+            </div>
+            <div class="stat">
+              <div class="stat-n">96%</div>
+              <div class="stat-l">Parent satisfaction rate</div>
+            </div>
+            <div class="stat">
+              <div class="stat-n">12</div>
+              <div class="stat-l">Expert educators</div>
+            </div>
+            <div class="stat">
+              <div class="stat-n">5</div>
+              <div class="stat-l">Core learning tracks</div>
+            </div>
+          </div>
+
+          <section class="sec">
+            <div class="sec-hd">
+              <h2 class="sec-t">Featured <em>Programmes</em></h2>
+              <button class="lnk" onclick="go('programs', null)">
+                View all
+                <svg
+                  width="13"
+                  height="13"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="2.5"
+                  stroke-linecap="round"
+                >
+                  <path d="M5 12h14M12 5l7 7-7 7">
+                </svg>
+              </button>
+            </div>
+            <div class="prog-grid">
+              <div class="pc" onclick="go('programs', null)">
+                <div class="pc-img">
+                  <img src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///ywAAAAAAQABAAACAUwAOw==" data-src="https://images.unsplash.com/photo-1587654780291-39c9404d746b?w=600&q=72&auto=format&fit=crop"
+                    alt="Early childhood"
+                    loading="lazy" decoding="async" fetchpriority="low">
+                  <div class="pc-img-ov"></div>
+                </div>
+                <div class="pc-body">
+                  <div class="pc-age">Ages 6-8</div>
+                  <div class="pc-name">NeuroNest Early Starters</div>
+                  <div class="pc-desc">
+                    Sensory-rich play-based learning that activates neural
+                    pathways during the critical early developmental window.
+                  </div>
+                  <div class="pc-foot">
+                    <div class="pc-spots">
+                      <div class="sdot sg"></div>
+                      Open enrolment
+                    </div>
+                    <button class="btn-e">
+                      Enrol
+                      <svg
+                        width="11"
+                        height="11"
+                        viewBox="0 0 24 24"
+                        fill="none"
+                        stroke="currentColor"
+                        stroke-width="2.5"
+                        stroke-linecap="round"
+                      >
+                        <path d="M5 12h14M12 5l7 7-7 7">
+                      </svg>
+                    </button>
+                  </div>
+                </div>
+              </div>
+              <div class="pc" onclick="go('programs', null)">
+                <div class="pc-img">
+                  <img src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///ywAAAAAAQABAAACAUwAOw==" data-src="https://images.unsplash.com/photo-1427504494785-3a9ca7044f45?w=600&q=72&auto=format&fit=crop"
+                    alt="STEM explorers"
+                    loading="lazy" decoding="async" fetchpriority="low">
+                  <div class="pc-img-ov"></div>
+                </div>
+                <div class="pc-body">
+                  <div class="pc-age">Ages 8-10</div>
+                  <div class="pc-name">CogniLeap Explorers</div>
+                  <div class="pc-desc">
+                    Problem-solving and literacy fusion that builds executive
+                    function and logical reasoning through discovery challenges.
+                  </div>
+                  <div class="pc-foot">
+                   <div class="pc-spots">
+                      <div class="sdot sg"></div>
+                      Open enrolment
+                    </div>
+                    <button class="btn-e">
+                      Enrol
+                      <svg
+                        width="11"
+                        height="11"
+                        viewBox="0 0 24 24"
+                        fill="none"
+                        stroke="currentColor"
+                        stroke-width="2.5"
+                        stroke-linecap="round"
+                      >
+                        <path d="M5 12h14M12 5l7 7-7 7">
+                      </svg>
+                    </button>
+                  </div>
+                </div>
+              </div>
+              <div class="pc" onclick="go('programs', null)">
+                <div class="pc-img">
+                  <img src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///ywAAAAAAQABAAACAUwAOw==" data-src="https://images.unsplash.com/photo-1509869175650-a1d97972541a?w=600&q=72&auto=format&fit=crop"
+                    alt="Advanced learners"
+                    loading="lazy" decoding="async" fetchpriority="low">
+                  <div class="pc-img-ov"></div>
+                </div>
+                <div class="pc-body">
+                  <div class="pc-age">Ages 8-10</div>
+                  <div class="pc-name">MindForge Advanced</div>
+                  <div class="pc-desc">
+                    STEM-integrated critical thinking, systems reasoning, and
+                    leadership capacity building for older learners.
+                  </div>
+                  <div class="pc-foot">
+                    <div class="pc-spots">
+                      <div class="sdot sg"></div>
+                      Open enrolment
+                    </div>
+                    <button class="btn-e">
+                      Enrol
+                      <svg
+                        width="11"
+                        height="11"
+                        viewBox="0 0 24 24"
+                        fill="none"
+                        stroke="currentColor"
+                        stroke-width="2.5"
+                        stroke-linecap="round"
+                      >
+                        <path d="M5 12h14M12 5l7 7-7 7">
+                      </svg>
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section>
+
+          <section class="testi-band">
+            <div class="tes">
+              <div class="tes-stars">
+                <svg width="13" height="13" viewBox="0 0 24 24" fill="#f59e0b">
+                  <polygon
+                    points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2">
+                </svg>
+                <svg width="13" height="13" viewBox="0 0 24 24" fill="#f59e0b">
+                  <polygon
+                    points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2">
+                </svg>
+                <svg width="13" height="13" viewBox="0 0 24 24" fill="#f59e0b">
+                  <polygon
+                    points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2">
+                </svg>
+                <svg width="13" height="13" viewBox="0 0 24 24" fill="#f59e0b">
+                  <polygon
+                    points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2">
+                </svg>
+                <svg width="13" height="13" viewBox="0 0 24 24" fill="#f59e0b">
+                  <polygon
+                    points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2">
+                </svg>
+              </div>
+              <p class="tes-q">
+                "Within 3 months, my son went from struggling with focus to
+                being the most engaged child in his class. CBDA's methods are
+                genuinely transformative."
+              </p>
+              <div class="tes-auth">
+                <img
+                  class="tes-av" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///ywAAAAAAQABAAACAUwAOw==" data-src="https://images.unsplash.com/photo-1531123897727-8f129e1688ce?w=80&q=70&auto=format&fit=crop&crop=face"
+                  alt="Abena" loading="lazy" decoding="async" fetchpriority="low">
+                <div>
+                  <div class="tes-name">Abena Asante</div>
+                  <div class="tes-role">Parent of 7-year-old</div>
+                </div>
+              </div>
+            </div>
+            <div class="tes">
+              <div class="tes-stars">
+                <svg width="13" height="13" viewBox="0 0 24 24" fill="#f59e0b">
+                  <polygon
+                    points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2">
+                </svg>
+                <svg width="13" height="13" viewBox="0 0 24 24" fill="#f59e0b">
+                  <polygon
+                    points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2">
+                </svg>
+                <svg width="13" height="13" viewBox="0 0 24 24" fill="#f59e0b">
+                  <polygon
+                    points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2">
+                </svg>
+                <svg width="13" height="13" viewBox="0 0 24 24" fill="#f59e0b">
+                  <polygon
+                    points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2">
+                </svg>
+                <svg width="13" height="13" viewBox="0 0 24 24" fill="#f59e0b">
+                  <polygon
+                    points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2">
+                </svg>
+              </div>
+              <p class="tes-q">
+                "The scientific rigour behind each programme is evident. My
+                daughter isn't just learning — she's developing a genuine love
+                of deep, rigorous thought."
+              </p>
+              <div class="tes-auth">
+                <img
+                  class="tes-av" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///ywAAAAAAQABAAACAUwAOw==" data-src="https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?w=80&q=70&auto=format&fit=crop&crop=face"
+                  alt="Kofi" loading="lazy" decoding="async" fetchpriority="low">
+                <div>
+                  <div class="tes-name">Kofi Mensah</div>
+                  <div class="tes-role">Parent of 5-year-old</div>
+                </div>
+              </div>
+            </div>
+            <div class="tes">
+              <div class="tes-stars">
+                <svg width="13" height="13" viewBox="0 0 24 24" fill="#f59e0b">
+                  <polygon
+                    points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2">
+                </svg>
+                <svg width="13" height="13" viewBox="0 0 24 24" fill="#f59e0b">
+                  <polygon
+                    points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2">
+                </svg>
+                <svg width="13" height="13" viewBox="0 0 24 24" fill="#f59e0b">
+                  <polygon
+                    points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2">
+                </svg>
+                <svg width="13" height="13" viewBox="0 0 24 24" fill="#f59e0b">
+                  <polygon
+                    points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2">
+                </svg>
+                <svg width="13" height="13" viewBox="0 0 24 24" fill="#f59e0b">
+                  <polygon
+                    points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2">
+                </svg>
+              </div>
+              <p class="tes-q">
+                "Enrolled both my children. Best educational investment I've
+                made. The educators are world-class, genuinely passionate, and
+                care deeply about each child."
+              </p>
+              <div class="tes-auth">
+                <img
+                  class="tes-av" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///ywAAAAAAQABAAACAUwAOw==" data-src="https://images.unsplash.com/photo-1531746020798-e6953c6e8e04?w=80&q=70&auto=format&fit=crop&crop=face"
+                  alt="Yaa" loading="lazy" decoding="async" fetchpriority="low">
+                <div>
+                  <div class="tes-name">Yaa Darko</div>
+                  <div class="tes-role">Parent of 4 & 9-year-olds</div>
+                </div>
+              </div>
+            </div>
+            
+            
+          </section>
+        </div>
+
+        <!-- ═ VIEW 2: PROGRAMS ═ -->
+        <div id="v-programs" class="view">
+          <div class="pg-hero">
+            <div class="eyebrow">Our Curriculum</div>
+            <h1 class="pg-h1">
+              Programmes built on<br><em>neuroscience</em>, not guesswork
+            </h1>
+            <p class="pg-sub">
+              Every track maps to developmental milestones and peer-reviewed
+              cognitive science. No fads. No filler. Just measurable, observable
+              growth.
+            </p>
+          </div>
+          <div class="frow">
+            <button class="fp on" onclick="filt(this, 'all')">All Ages</button>
+            <button class="fp" onclick="filt(this, '6-8')">Ages 6-8</button>
+            <button class="fp" onclick="filt(this, '8-10')">Ages 8-10</button>
+            <button class="fp" onclick="filt(this, '10-12')">Ages 10-12</button>
+            <button class="fp" onclick="filt(this, 'special')">
+              Specialist Tracks
+            </button>
+          </div>
+          <div class="pg-list" id="pl">
+            <div class="pf" data-age="6-8">
+              <div class="pf-img">
+                <img src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///ywAAAAAAQABAAACAUwAOw==" data-src="https://images.unsplash.com/photo-1587654780291-39c9404d746b?w=800&q=72&auto=format&fit=crop"
+                  alt="Early childhood"
+                  loading="lazy" decoding="async" fetchpriority="low">
+                <div class="pf-img-ov">
+                  <span class="pf-badge">Ages 6-8</span>
+                </div>
+              </div>
+              <div class="pf-body">
+                <div class="pf-title">NeuroNest Early Starters</div>
+                <div class="pf-desc">
+                  Sensory-rich play-based learning activating critical neural
+                  pathways during the most plastic phase of brain development.
+                  Grounded in Vygotsky's Zone of Proximal Development framework.
+                </div>
+                <div class="tags">
+                  <span class="tag">Sensory Play</span
+                  ><span class="tag">Language</span
+                  ><span class="tag">Motor Skills</span
+                  ><span class="tag">Social-Emotional</span>
+                </div>
+                <div class="pf-foot">
+                  <button class="btn-s" onclick="go('contact', null)">
+                    Enrol Now
+                    <svg
+                      width="12"
+                      height="12"
+                      viewBox="0 0 24 24"
+                      fill="none"
+                      stroke="currentColor"
+                      stroke-width="2.5"
+                      stroke-linecap="round"
+                    >
+                      <path d="M5 12h14M12 5l7 7-7 7">
+                    </svg>
+                  </button>
+                </div>
+              </div>
+            </div>
+            <div class="pf" data-age="8-10">
+              <div class="pf-img">
+                <img src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///ywAAAAAAQABAAACAUwAOw==" data-src="https://images.unsplash.com/photo-1427504494785-3a9ca7044f45?w=800&q=72&auto=format&fit=crop"
+                  alt="STEM explorers"
+                  loading="lazy" decoding="async" fetchpriority="low">
+                <div class="pf-img-ov">
+                  <span class="pf-badge">Ages 8-10</span>
+                </div>
+              </div>
+              <div class="pf-body">
+                <div class="pf-title">CogniLeap Explorers</div>
+                <div class="pf-desc">
+                  Structured problem-solving and early literacy fusion. Builds
+                  executive function, working memory, and logical reasoning
+                  through discovery-based STEM challenges designed for this
+                  developmental window.
+                </div>
+                <div class="tags">
+                  <span class="tag">Executive Function</span
+                  ><span class="tag">Early STEM</span
+                  ><span class="tag">Reading</span
+                  ><span class="tag">Math Thinking</span>
+                </div>
+                <div class="pf-foot">
+                  <button class="btn-s" onclick="go('contact', null)">
+                    Enrol Now
+                    <svg
+                      width="12"
+                      height="12"
+                      viewBox="0 0 24 24"
+                      fill="none"
+                      stroke="currentColor"
+                      stroke-width="2.5"
+                      stroke-linecap="round"
+                    >
+                      <path d="M5 12h14M12 5l7 7-7 7">
+                    </svg>
+                  </button>
+                </div>
+              </div>
+            </div>
+            <div class="pf" data-age="10-12">
+              <div class="pf-img">
+                <img src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///ywAAAAAAQABAAACAUwAOw==" data-src="https://images.unsplash.com/photo-1516321318423-f06f85e504b3?w=800&q=72&auto=format&fit=crop"
+                  alt="Problem solving"
+                  loading="lazy" decoding="async" fetchpriority="low">
+                <div class="pf-img-ov">
+                  <span class="pf-badge">Ages 10-12</span>
+                </div>
+              </div>
+              <div class="pf-body">
+                <div class="pf-title">ThinkSpark Problem Solvers</div>
+                <div class="pf-desc">
+                  Logic puzzles, lateral thinking games, and collaborative
+                  challenges. Explicitly trains children to approach problems
+                  systematically and to persist through difficulty with genuine
+                  confidence.
+                </div>
+                <div class="tags">
+                  <span class="tag">Critical Thinking</span
+                  ><span class="tag">Lateral Reasoning</span
+                  ><span class="tag">Collaboration</span>
+                </div>
+                <div class="pf-foot">
+                  <button class="btn-s" onclick="go('contact', null)">
+                    Enrol Now
+                    <svg
+                      width="12"
+                      height="12"
+                      viewBox="0 0 24 24"
+                      fill="none"
+                      stroke="currentColor"
+                      stroke-width="2.5"
+                      stroke-linecap="round"
+                    >
+                      <path d="M5 12h14M12 5l7 7-7 7">
+                    </svg>
+                  </button>
+                </div>
+              </div>
+            </div>
+           
+          </div>
+        </div>
+
+        <!-- ═ VIEW 3: ABOUT ═ -->
+        <div id="v-about" class="view">
+          <div class="ab-pro">
+            <section class="ab-hero-pro">
+              <div class="ab-hero-copy">
+                <div class="eyebrow">About CBDA</div>
+                <h1 class="pg-h1">
+                  A serious learning institution with a <em>human</em> center
+                </h1>
+                <p class="ab-lead">
+                  CBDA brings together school leadership, developmental
+                  specialists, facilitators, operations, and technology to give
+                  every child a thoughtful, structured, and inspiring learning
+                  experience.
+                </p>
+                <div class="ab-hero-actions">
+                  <span>Executive leadership</span>
+                  <span>Academic facilitation</span>
+                  <span>Learning technology</span>
+                </div>
+              </div>
+              <div class="ab-hero-media">
+                <img src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///ywAAAAAAQABAAACAUwAOw==" data-src="https://images.unsplash.com/photo-1580582932707-520aed937b7b?w=1200&q=72&auto=format&fit=crop"
+                  alt="CBDA learning environment"
+                  loading="lazy" decoding="async" fetchpriority="low">
+                <div class="ab-media-panel">
+                  <span>Since 2023</span>
+                  <strong>Purpose-built for children who think deeply.</strong>
+                </div>
+              </div>
+            </section>
+
+            <section class="ab-metrics" aria-label="CBDA at a glance">
+              <div>
+                <strong>15</strong>
+                <span>Maximum learners per cohort</span>
+              </div>
+              <div>
+                <strong>6</strong>
+                <span>Core team functions</span>
+              </div>
+              <div>
+                <strong>3+</strong>
+                <span>Years of child-focused practice</span>
+              </div>
+              <div>
+                <strong>127</strong>
+                <span>Parent, tutor, and learner feedback loop</span>
+              </div>
+            </section>
+
+            <section class="ab-story">
+              <div class="ab-story-main">
+                <div class="eyebrow">Our Operating Philosophy</div>
+                <h2>We do not run classes. We design learning systems.</h2>
+                <p>
+                  CBDA was built on the belief that children need more than
+                  content delivery. They need attentive adults, calm systems,
+                  clear progression, creative challenge, and technology that
+                  supports learning without replacing human judgment.
+                </p>
+                <p>
+                  Our team model reflects that belief. Leadership sets the
+                  standard, directors protect quality, facilitators guide the
+                  learning floor, IT keeps digital tools reliable, and support
+                  staff make the experience smooth for families.
+                </p>
+              </div>
+              <div class="ab-story-card">
+                <span>What makes us different</span>
+                <p>
+                  Every department is connected to one question: what does this
+                  child need next to become more confident, curious,
+                  disciplined, and independent?
+                </p>
+              </div>
+            </section>
+
+            <section class="ab-leadership">
+              <div class="ab-section-head">
+                <div>
+                  <div class="eyebrow">Leadership Team</div>
+                  <h2>Strategic, academic, and operational leadership</h2>
+                </div>
+                <p>
+                  A professional leadership layer gives the school consistency,
+                  accountability, and a clear standard for every programme.
+                </p>
+              </div>
+              <div class="leader-grid">
+                <article class="leader-card leader-primary">
+                  <img 
+                  src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///ywAAAAAAQABAAACAUwAOw==" data-src="https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?w=260&q=72&auto=format&fit=crop&crop=face"
+                    alt="Mr. Korankye Paul" loading="lazy" decoding="async" fetchpriority="low">
+                  <div>
+                    <span>Chief Executive Officer</span>
+                    <h3>Mr. Korankye Paul</h3>
+                    <p>
+                      Leads CBDA's vision, culture, partnerships, and long-term
+                      strategy with a focus on child-centered excellence.
+                    </p>
+                  </div>
+                </article>
+                <article class="leader-card">
+                  <img                   src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///ywAAAAAAQABAAACAUwAOw==" data-src="https://images.unsplash.com/photo-1531123897727-8f129e1688ce?w=520&q=72&auto=format&fit=crop&crop=face"
+
+                    alt=" Ms. Celestine Korankye" loading="lazy" decoding="async" fetchpriority="low">
+                  <div>
+                    <span>Director of Academics</span>
+                    <h3> Ms. Celestine Korankye</h3>
+                    <p>
+                      Oversees curriculum quality, tutor coaching, assessment
+                      standards, and mastery progression.
+                    </p>
+                  </div>
+                </article>
+                <article class="leader-card">
+                  <img src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///ywAAAAAAQABAAACAUwAOw==" data-src="https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=260&q=72&auto=format&fit=crop&crop=face"
+                    alt="Ms. Adwoa Mensah" loading="lazy" decoding="async" fetchpriority="low">
+                  <div>
+                    <span>Director of Operations</span>
+                    <h3>Ms. Adwoa Mensah</h3>
+                    <p>
+                      Coordinates parent experience, scheduling, staff systems,
+                      safeguarding, and daily campus delivery.
+                    </p>
+                  </div>
+                </article>
+              </div>
+            </section>
+
+            <section class="ab-departments">
+              <div class="ab-section-head">
+                <div>
+                  <div class="eyebrow">How The Team Works</div>
+                  <h2>Departments built around the learner journey</h2>
+                </div>
+              </div>
+              <div class="dept-grid">
+                <article class="dept">
+                  <div class="dept-code">01</div>
+                  <h3>Executive Office</h3>
+                  <p>Vision, partnerships, compliance, school culture.</p>
+                </article>
+                <article class="dept">
+                  <div class="dept-code">02</div>
+                  <h3>Academic Direction</h3>
+                  <p>Curriculum design, facilitator coaching, assessment.</p>
+                </article>
+                <article class="dept">
+                  <div class="dept-code">03</div>
+                  <h3>Facilitators</h3>
+                  <p>Small-group learning, feedback, practice, confidence.</p>
+                </article>
+                <article class="dept">
+                  <div class="dept-code">04</div>
+                  <h3>IT &amp; Digital Learning</h3>
+                  <p>Learning platforms, classroom tech, data reliability.</p>
+                </article>
+                <article class="dept">
+                  <div class="dept-code">05</div>
+                  <h3>Child Support</h3>
+                  <p>Wellbeing, inclusion, safeguarding, learner confidence.</p>
+                </article>
+                <article class="dept">
+                  <div class="dept-code">06</div>
+                  <h3>Administration</h3>
+                  <p>Admissions, parent communication, records, logistics.</p>
+                </article>
+              </div>
+            </section>
+
+            <section class="ab-team">
+              <div class="ab-section-head">
+                <div>
+                  <div class="eyebrow">Our People</div>
+                  <h2>Meet the team behind the learning experience</h2>
+                </div>
+              </div>
+              <div class="team-grid">
+                <article class="team-card">
+                  <img src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///ywAAAAAAQABAAACAUwAOw==" data-src="https://images.unsplash.com/photo-1531746020798-e6953c6e8e04?w=360&q=72&auto=format&fit=crop&crop=face"
+                    alt="Ms. Celestina Korankye" loading="lazy" decoding="async" fetchpriority="low">
+                  <div>
+                    <span>Lead Facilitator</span>
+                    <h3>Ms. Celestina Korankye</h3>
+                    <p>Creative cognition, early confidence, and arts-linked thinking.</p>
+                  </div>
+                </article>
+                <article class="team-card">
+                  <img src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///ywAAAAAAQABAAACAUwAOw==" data-src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=360&q=72&auto=format&fit=crop&crop=face"
+                    alt="Dr. Kofi Antwi" loading="lazy" decoding="async" fetchpriority="low">
+                  <div>
+                    <span>Child Support Consultant</span>
+                    <h3>Dr. Kofi Antwi</h3>
+                    <p>Wellbeing guidance, inclusion planning, and learner support.</p>
+                  </div>
+                </article>
+                <article class="team-card">
+                  <img src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///ywAAAAAAQABAAACAUwAOw==" data-src="https://images.unsplash.com/photo-1519085360753-af0119f7cbe7?w=360&q=72&auto=format&fit=crop&crop=face"
+                    alt="Mr. Daniel Owusu" loading="lazy" decoding="async" fetchpriority="low">
+                  <div>
+                    <span>IT &amp; Systems Lead</span>
+                    <h3>Mr. Daniel Owusu</h3>
+                    <p>Digital learning tools, data systems, devices, and support.</p>
+                  </div>
+                </article>
+                <article class="team-card">
+                  <img src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///ywAAAAAAQABAAACAUwAOw==" data-src="https://images.unsplash.com/photo-1551836022-d5d88e9218df?w=360&q=72&auto=format&fit=crop&crop=face"
+                    alt="Mrs. Nana Boateng" loading="lazy" decoding="async" fetchpriority="low">
+                  <div>
+                    <span>Parent Relations Manager</span>
+                    <h3>Mrs. Nana Boateng</h3>
+                    <p>Family communication, onboarding, progress calls, and care.</p>
+                  </div>
+                </article>
+                <article class="team-card">
+                  <img src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///ywAAAAAAQABAAACAUwAOw==" data-src="https://images.unsplash.com/photo-1527980965255-d3b416303d12?w=360&q=72&auto=format&fit=crop&crop=face"
+                    alt="Mr. Isaac Yeboah" loading="lazy" decoding="async" fetchpriority="low">
+                  <div>
+                    <span>STEM Facilitator</span>
+                    <h3>Mr. Isaac Yeboah</h3>
+                    <p>Mathematics fluency, logic games, experiments, and projects.</p>
+                  </div>
+                </article>
+                
+              </div>
+            </section>
+          </div>
+        </div>
+<!-- ═ VIEW 4: EVENTS ═ -->
+        <div id="v-events" class="view">
+          <div class="pg-hero">
+            <div class="eyebrow">Life at CBDA</div>
+            <h1 class="pg-h1">Where <em>learning</em> looks like joy</h1>
+            <p class="pg-sub">
+              A glimpse into the curiosity, laughter, and intellectual
+              excitement that defines the CBDA experience every single day.
+            </p>
+          </div>
+          <div class="ev-inner">
+            <div>
+              <h2
+                style="
+                  font-family: &quot;Fraunces&quot;, serif;
+                  font-size: 18px;
+                  font-weight: 500;
+                  color: var(--ink);
+                  margin-bottom: 14px;
+                  letter-spacing: -0.3px;
+                "
+              >
+                Photo Gallery
+              </h2>
+              <div class="gallery">
+                <div
+                  class="gi big"
+                 
+            
+                >
+                  <img src="./images/img-b.jpg"
+                    alt="Science Fair"
+                    loading="lazy" decoding="async" fetchpriority="low">
+                  <div class="gi-cap">
+                    <div class="gi-cap-t">Science Fair 2024</div>
+                  </div>
+                </div>
+                <div
+                  class="gi"
+                 
+                >
+                  <img src="./images/img-c.jpg"
+                    alt="Arts"
+                    loading="lazy" decoding="async" fetchpriority="low">
+                  <div class="gi-cap">
+                    <div class="gi-cap-t">Arts Exhibition</div>
+                  </div>
+                </div>
+                <div
+                  class="gi"
+                 
+                
+                >
+                  <img src="./images/img-d.png"
+                    alt="Championships"
+                    loading="lazy" decoding="async" fetchpriority="low">
+                  <div class="gi-cap">
+                    <div class="gi-cap-t">Championships</div>
+                  </div>
+                </div>
+                <div
+                  class="gi"
+                  onclick="
+                    openLbox(
+                      'https://images.unsplash.com/photo-1456513080510-7bf3a84b82f8?w=800&q=72&auto=format&fit=crop',
+                      'Reading Festival',
+                      'Annual celebration of literature, storytelling, and the power of books.',
+                    )
+                  "
+                >
+                  <img src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///ywAAAAAAQABAAACAUwAOw==" data-src="https://images.unsplash.com/photo-1456513080510-7bf3a84b82f8?w=800&q=72&auto=format&fit=crop"
+                    alt="Reading"
+                    loading="lazy" decoding="async" fetchpriority="low">
+                  <div class="gi-cap">
+                    <div class="gi-cap-t">Reading Festival</div>
+                  </div>
+                </div>
+                <div
+                  class="gi"
+                  onclick="
+                    openLbox(
+                      'https://images.unsplash.com/photo-1485827404703-89b55fcc595e?w=800&q=72&auto=format&fit=crop',
+                      'Junior Robotics Lab',
+                      'Coding and robotics for the 7–10 cohort. 90% rated this their favourite session.',
+                    )
+                  "
+                >
+                  <img src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///ywAAAAAAQABAAACAUwAOw==" data-src="https://images.unsplash.com/photo-1485827404703-89b55fcc595e?w=800&q=72&auto=format&fit=crop"
+                    alt="Robotics"
+                    loading="lazy" decoding="async" fetchpriority="low">
+                  <div class="gi-cap">
+                    <div class="gi-cap-t">Robotics Day</div>
+                  </div>
+                </div>
+                <div
+                  class="gi"
+                  onclick="
+                    openLbox(
+                      'https://images.unsplash.com/photo-1503676260728-1c00da094a0b?w=800&q=72&auto=format&fit=crop',
+                      'Graduation Day 2024',
+                      'Our proudest day of the year. 180 graduates, 180 unique journeys.',
+                    )
+                  "
+                >
+                  <img src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///ywAAAAAAQABAAACAUwAOw==" data-src="https://images.unsplash.com/photo-1503676260728-1c00da094a0b?w=800&q=72&auto=format&fit=crop"
+                    alt="Graduation"
+                    loading="lazy" decoding="async" fetchpriority="low">
+                  <div class="gi-cap">
+                    <div class="gi-cap-t">Graduation Day</div>
+                  </div>
+                </div>
+                <div
+                  class="gi"
+                  onclick="
+                    openLbox(
+                      'https://images.unsplash.com/photo-1573164713988-8665fc963095?w=800&q=72&auto=format&fit=crop',
+                      'Community Day',
+                      'Families, educators, and children celebrate the CBDA community together.',
+                    )
+                  "
+                >
+                  <img src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///ywAAAAAAQABAAACAUwAOw==" data-src="https://images.unsplash.com/photo-1573164713988-8665fc963095?w=800&q=72&auto=format&fit=crop"
+                    alt="Community"
+                    loading="lazy" decoding="async" fetchpriority="low">
+                  <div class="gi-cap">
+                    <div class="gi-cap-t">Community Day</div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="ev-list">
+              <h2
+                style="
+                  font-family: &quot;Fraunces&quot;, serif;
+                  font-size: 18px;
+                  font-weight: 500;
+                  color: var(--ink);
+                  margin-bottom: 14px;
+                  letter-spacing: -0.3px;
+                "
+              >
+                Upcoming Events
+              </h2>
+              <div class="evc">
+                <div class="evc-top">
+                  <div class="ev-date">
+                    <div class="ev-d">14</div>
+                    <div class="ev-m">Jun</div>
+                  </div>
+                  <div class="ev-info">
+                    <div class="ev-title">Open Day — Term 3</div>
+                    <div class="ev-time">
+                      <svg
+                        width="11"
+                        height="11"
+                        viewBox="0 0 24 24"
+                        fill="none"
+                        stroke="currentColor"
+                        stroke-width="2"
+                        stroke-linecap="round"
+                      >
+                        <circle cx="12" cy="12" r="10">
+                        <polyline points="12 6 12 12 16 14">
+                      </svg>
+                      10:00 AM – 1:00 PM
+                    </div>
+                  </div>
+                </div>
+                <div class="evc-body">
+                  <div class="evc-desc">
+                    Tour the academy, meet educators, observe live sessions,
+                    speak with current parents. No appointment needed.
+                  </div>
+                  <div class="ev-tags">
+                    <span class="ev-tag">Free Entry</span
+                    ><span class="ev-tag">All Ages</span>
+                  </div>
+                </div>
+              </div>
+              <div class="evc">
+                <div class="evc-top">
+                  <div class="ev-date">
+                    <div class="ev-d">22</div>
+                    <div class="ev-m">Jun</div>
+                  </div>
+                  <div class="ev-info">
+                    <div class="ev-title">MindForge Challenge Day</div>
+                    <div class="ev-time">
+                      <svg
+                        width="11"
+                        height="11"
+                        viewBox="0 0 24 24"
+                        fill="none"
+                        stroke="currentColor"
+                        stroke-width="2"
+                        stroke-linecap="round"
+                      >
+                        <circle cx="12" cy="12" r="10">
+                        <polyline points="12 6 12 12 16 14">
+                      </svg>
+                      9:00 AM – 4:00 PM
+                    </div>
+                  </div>
+                </div>
+                <div class="evc-body">
+                  <div class="evc-desc">
+                    Inter-cohort problem-solving championship with logic
+                    puzzles, team challenges, and a keynote from a STEM industry
+                    leader.
+                  </div>
+                  <div class="ev-tags">
+                    <span class="ev-tag">Ages 9–14</span
+                    ><span class="ev-tag">Enrolled Only</span>
+                  </div>
+                </div>
+              </div>
+              <div class="evc">
+                <div class="evc-top">
+                  <div class="ev-date">
+                    <div class="ev-d">5</div>
+                    <div class="ev-m">Jul</div>
+                  </div>
+                  <div class="ev-info">
+                    <div class="ev-title">
+                      Parent Workshop: The Developing Brain
+                    </div>
+                    <div class="ev-time">
+                      <svg
+                        width="11"
+                        height="11"
+                        viewBox="0 0 24 24"
+                        fill="none"
+                        stroke="currentColor"
+                        stroke-width="2"
+                        stroke-linecap="round"
+                      >
+                        <circle cx="12" cy="12" r="10">
+                        <polyline points="12 6 12 12 16 14">
+                      </svg>
+                      6:30 PM – 9:00 PM
+                    </div>
+                  </div>
+                </div>
+                <div class="evc-body">
+                  <div class="evc-desc">
+                    Dr. Ama Serwaa presents the latest neuroscience on parental
+                    influence on child cognition. Q&A included.
+                  </div>
+                  <div class="ev-tags">
+                    <span class="ev-tag">Parents</span
+                    ><span class="ev-tag">GH₵ 50</span>
+                  </div>
+                </div>
+              </div>
+              <div class="evc">
+                <div class="evc-top">
+                  <div class="ev-date">
+                    <div class="ev-d">19</div>
+                    <div class="ev-m">Jul</div>
+                  </div>
+                  <div class="ev-info">
+                    <div class="ev-title">End-of-Term Showcase</div>
+                    <div class="ev-time">
+                      <svg
+                        width="11"
+                        height="11"
+                        viewBox="0 0 24 24"
+                        fill="none"
+                        stroke="currentColor"
+                        stroke-width="2"
+                        stroke-linecap="round"
+                      >
+                        <circle cx="12" cy="12" r="10">
+                        <polyline points="12 6 12 12 16 14">
+                      </svg>
+                      11:00 AM – 3:00 PM
+                    </div>
+                  </div>
+                </div>
+                <div class="evc-body">
+                  <div class="evc-desc">
+                    Children present their term projects to family and
+                    community. The highlight of our academic calendar.
+                  </div>
+                  <div class="ev-tags">
+                    <span class="ev-tag">All Welcome</span
+                    ><span class="ev-tag">Free</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- ═ VIEW 6: GAMES ═ -->
+        <div id="v-games" class="view">
+          <div class="pg-hero">
+            <div class="eyebrow">Learning Tools</div>
+            <h1 class="pg-h1">Game Boards &amp; <em>Worksheets</em></h1>
+            <p class="pg-sub">
+              Hands-on, print-ready learning tools designed to make mathematics
+              tactile, competitive, and genuinely fun for children aged 6–12.
+            </p>
+          </div>
+          <div class="games-wrap">
+            <div class="games-grid">
+              <div class="game-card" onclick="openGameModal('gb1')">
+                <div class="game-img-wrap">
+                  <img src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///ywAAAAAAQABAAACAUwAOw==" data-src="images/gameboard-1.webp"
+                    alt="Tables 2-3-4 Game Board"
+                    class="game-img" loading="lazy" decoding="async" fetchpriority="low">
+                  <div class="game-img-ov">
+                    <div class="game-preview-btn">
+                      <svg
+                        width="18"
+                        height="18"
+                        viewBox="0 0 24 24"
+                        fill="none"
+                        stroke="currentColor"
+                        stroke-width="2"
+                        stroke-linecap="round"
+                      >
+                        <path
+                          d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z">
+                        <circle cx="12" cy="12" r="3">
+                      </svg>
+                      Preview
+                    </div>
+                  </div>
+                </div>
+                <div class="game-body">
+                  <div class="game-tag-row">
+                    <span class="game-tag math">Mathematics</span
+                    ><span class="game-tag multi">2 Players</span>
+                  </div>
+                  <div class="game-title">
+                    Multiplication Master — Tables 2, 3 &amp; 4
+                  </div>
+                  <div class="game-desc">
+                    A competitive two-player race muliplication master through
+                    the 2, 3 and 4 times tables.
+                  </div>
+                  <div class="game-foot">
+                    <button
+                      class="game-view-btn"
+                      onclick="viewGameplay('gb1', event)"
+                    >
+                      <span aria-hidden="true">▶</span>
+                      View Gameplay
+                    </button>
+                    <button
+                      class="game-dl-btn"
+                      onclick="
+                        event.stopPropagation();
+                        alert('Download ready — print at A3 for best results.');
+                      "
+                    >
+                      <svg
+                        width="13"
+                        height="13"
+                        viewBox="0 0 24 24"
+                        fill="none"
+                        stroke="currentColor"
+                        stroke-width="2.5"
+                        stroke-linecap="round"
+                      >
+                        <path d="M21 15v4a2 2 0 01-2 2H5a2 2 0 01-2-2v-4" />
+                        <polyline points="7 10 12 15 17 10" />
+                        <line x1="12" y1="15" x2="12" y2="3" />
+                      </svg>
+                      Download
+                    </button>
+                  </div>
+                </div>
+              </div>
+
+              <div class="game-card featured" onclick="openGameModal('gb2')">
+                <div class="game-featured-tag">⭐ Most Popular</div>
+
+                <div class="game-img-wrap">
+                  <img src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///ywAAAAAAQABAAACAUwAOw==" data-src="images/gameboard-2.webp"
+                    alt="Tables 6-7-8 Game Board"
+                    class="game-img" loading="lazy" decoding="async" fetchpriority="low">
+                  <div class="game-img-ov">
+                    <div class="game-preview-btn">
+                      <svg
+                        width="18"
+                        height="18"
+                        viewBox="0 0 24 24"
+                        fill="none"
+                        stroke="currentColor"
+                        stroke-width="2"
+                        stroke-linecap="round"
+                      >
+                        <path
+                          d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z">
+                        <circle cx="12" cy="12" r="3">
+                      </svg>
+                      Preview
+                    </div>
+                  </div>
+                </div>
+                <div class="game-body">
+                  <div class="game-tag-row">
+                    <span class="game-tag math">Mathematics</span
+                    ><span class="game-tag multi">2 Players</span>
+                  </div>
+                  <div class="game-title">
+                    Multiplication Master — Tables 6, 7 &amp; 8
+                  </div>
+                  <div class="game-desc">
+                    Advanced multiplication challenge covering the harder
+                    tables. A proven tool for building genuine fluency.
+                  </div>
+                  <div class="game-foot">
+                    <button
+                      class="game-view-btn"
+                      onclick="viewGameplay('gb2', event)"
+                    >
+                      <span aria-hidden="true">▶</span>
+                      View Gameplay
+                    </button>
+                    <button
+                      class="game-dl-btn"
+                      onclick="
+                        event.stopPropagation();
+                        alert('Download ready — print at A3 for best results.');
+                      "
+                    >
+                      <svg
+                        width="13"
+                        height="13"
+                        viewBox="0 0 24 24"
+                        fill="none"
+                        stroke="currentColor"
+                        stroke-width="2.5"
+                        stroke-linecap="round"
+                      >
+                        <path d="M21 15v4a2 2 0 01-2 2H5a2 2 0 01-2-2v-4" />
+                        <polyline points="7 10 12 15 17 10" />
+                        <line x1="12" y1="15" x2="12" y2="3" />
+                      </svg>
+                      Download
+                    </button>
+                  </div>
+                </div>
+              </div>
+
+              <div class="game-card" onclick="openGameModal('gb3')">
+                <div class="game-img-wrap">
+                  <img src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///ywAAAAAAQABAAACAUwAOw==" data-src="images/gameboard-3.webp"
+                    alt="Tug of War Board Game"
+                    class="game-img" loading="lazy" decoding="async" fetchpriority="low">
+                  <div class="game-img-ov">
+                    <div class="game-preview-btn">
+                      <svg
+                        width="18"
+                        height="18"
+                        viewBox="0 0 24 24"
+                        fill="none"
+                        stroke="currentColor"
+                        stroke-width="2"
+                        stroke-linecap="round"
+                      >
+                        <path
+                          d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z">
+                        <circle cx="12" cy="12" r="3">
+                      </svg>
+                      Preview
+                    </div>
+                  </div>
+                </div>
+                <div class="game-body">
+                  <div class="game-tag-row">
+                    <span class="game-tag strategy">Strategy</span
+                    ><span class="game-tag multi">2 Players</span>
+                  </div>
+                  <div class="game-title">
+                    Tug of War — Cognitive Duel Board
+                  </div>
+                  <div class="game-desc">
+                    A cross-shaped board game where two players compete in four
+                    directions simultaneously. Answer correctly to pull your
+                    opponent across the line. Builds rapid recall under
+                    pressure.
+                  </div>
+                  <div class="game-foot">
+                    <button
+                      class="game-view-btn"
+                      onclick="viewGameplay('gb3', event)"
+                    >
+                      <span aria-hidden="true">▶</span>
+                      View Gameplay
+                    </button>
+                    <button
+                      class="game-dl-btn"
+                      onclick="
+                        event.stopPropagation();
+                        alert('Download ready — print at A3 for best results.');
+                      "
+                    >
+                      <svg
+                        width="13"
+                        height="13"
+                        viewBox="0 0 24 24"
+                        fill="none"
+                        stroke="currentColor"
+                        stroke-width="2.5"
+                        stroke-linecap="round"
+                      >
+                        <path d="M21 15v4a2 2 0 01-2 2H5a2 2 0 01-2-2v-4" />
+                        <polyline points="7 10 12 15 17 10" />
+                        <line x1="12" y1="15" x2="12" y2="3" />
+                      </svg>
+                      Download
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="games-info">
+              <div class="gi-box">
+                <div class="gi-icon">
+                  <svg
+                    width="20"
+                    height="20"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-width="1.8"
+                    stroke-linecap="round"
+                  >
+                    <circle cx="12" cy="12" r="10">
+                    <line x1="12" y1="8" x2="12" y2="12">
+                    <line x1="12" y1="16" x2="12.01" y2="16">
+                  </svg>
+                </div>
+                <div class="gi-title">How to use</div>
+                <div class="gi-text">
+                  Print at A4 size for best results. All boards are designed for
+                  2 players.
+                </div>
+              </div>
+              <div class="gi-box">
+                <div class="gi-icon">
+                  <svg
+                    width="20"
+                    height="20"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-width="1.8"
+                    stroke-linecap="round"
+                  >
+                    <path
+                      d="M12 2C8 2 5 5 5 9c0 2.4 1.1 4.5 2.8 5.9L7 20h10l-.8-5.1C17.9 13.5 19 11.4 19 9c0-4-3-7-7-7z">
+                  </svg>
+                </div>
+                <div class="gi-title">The science behind it</div>
+                <div class="gi-text">
+                  Competitive game-based learning activates dopaminergic reward
+                  circuits, increasing memory consolidation by up to 40%
+                  compared to passive worksheet practice.
+                </div>
+              </div>
+              <div class="gi-box">
+                <div class="gi-icon">
+                  <svg
+                    width="20"
+                    height="20"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-width="1.8"
+                    stroke-linecap="round"
+                  >
+                    <rect x="3" y="4" width="18" height="18" rx="2">
+                    <line x1="16" y1="2" x2="16" y2="6">
+                    <line x1="8" y1="2" x2="8" y2="6">
+                    <line x1="3" y1="10" x2="21" y2="10">
+                  </svg>
+                </div>
+                <div class="gi-title">More coming soon</div>
+                <div class="gi-text">
+                  New game boards released every term. Enrolled families get
+                  exclusive early access.
+                  <span
+                    style="
+                      color: var(--sage);
+                      font-weight: 600;
+                      cursor: pointer;
+                    "
+                    onclick="go('contact', null)"
+                    >Start Your Child’s Journey →</span
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- ═ VIEW 5: CONTACT ═ -->
+        <div id="v-contact" class="view">
+          <div class="ct-wrap">
+            <div class="ct-left">
+              <div class="ct-bg" data-bg="https://images.unsplash.com/photo-1580582932707-520aed937b7b?w=1200&q=70&auto=format&fit=crop"></div>
+              <div class="ct-bg-ov"></div>
+              <div class="ct-lc">
+                <div>
+                  <div class="eyebrow" style="color: rgba(255, 255, 255, 0.55)">
+                    Get In Touch
+                  </div>
+                  <h1 class="ct-big">
+                    Let's find the right<br>programme for<br>your child
+                  </h1>
+                  <p class="ct-sub">
+                    Our team responds within 24 hours with a personalised
+                    programme recommendation and a clear next step.
+                  </p>
+                  <div class="ct-dets">
+                    <div class="cd-item">
+                      <div class="cd-ico">
+                        <svg
+                          width="15"
+                          height="15"
+                          viewBox="0 0 24 24"
+                          fill="none"
+                          stroke="currentColor"
+                          stroke-width="1.8"
+                          stroke-linecap="round"
+                        >
+                          <path
+                            d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z">
+                          <circle cx="12" cy="10" r="3">
+                        </svg>
+                      </div>
+                      <div>
+                        <div class="cd-lbl">Address</div>
+                        <div class="cd-val">
+                          Nova St., Adjei-Kojo, Tema-West
+                        </div>
+                      </div>
+                    </div>
+                    <div class="cd-item">
+                      <div class="cd-ico">
+                        <svg
+                          width="15"
+                          height="15"
+                          viewBox="0 0 24 24"
+                          fill="none"
+                          stroke="currentColor"
+                          stroke-width="1.8"
+                          stroke-linecap="round"
+                        >
+                          <path
+                            d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07A19.5 19.5 0 013.07 10.8 19.79 19.79 0 01.22 2.18 2 2 0 012.22 0h3a2 2 0 012 1.72c.127.96.361 1.903.7 2.81a2 2 0 01-.45 2.11L6.91 7.09a16 16 0 006 6l.61-.61a2 2 0 012.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0122 16.92z">
+                        </svg>
+                      </div>
+                      <div>
+                        <div class="cd-lbl">Phone</div>
+                        <div class="cd-val">059 - 643 - 6015</div>
+                      </div>
+                    </div>
+                    <div class="cd-item">
+                      <div class="cd-ico">
+                        <svg
+                          width="15"
+                          height="15"
+                          viewBox="0 0 24 24"
+                          fill="none"
+                          stroke="currentColor"
+                          stroke-width="1.8"
+                          stroke-linecap="round"
+                        >
+                          <path
+                            d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z">
+                          <polyline points="22,6 12,13 2,6">
+                        </svg>
+                      </div>
+                      <div>
+                        <div class="cd-lbl">Email</div>
+                        <div class="cd-val">info@childbraindevelopmentacademy.com</div>
+                      </div>
+                    </div>
+                    <div class="cd-item">
+                      <div class="cd-ico">
+                        <svg
+                          width="15"
+                          height="15"
+                          viewBox="0 0 24 24"
+                          fill="none"
+                          stroke="currentColor"
+                          stroke-width="1.8"
+                          stroke-linecap="round"
+                        >
+                          <circle cx="12" cy="12" r="10">
+                          <polyline points="12 6 12 12 16 14">
+                        </svg>
+                      </div>
+                      <div>
+                        <div class="cd-lbl">Office Hours</div>
+                        <div class="cd-val">Mon–Sat, 8:00 AM – 3:00 PM</div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="ct-right">
+              <div id="fw">
+                <div class="f-title">Start Your Child’s Journey</div>
+                <div class="f-sub">
+                  Takes 2 minutes. No obligation whatsoever.
+                </div>
+                <div class="frow2">
+                  <div class="fg">
+                    <label class="fl">Parent / Guardian Name</label
+                    ><input
+                      id="parentName"
+                      type="text"
+                      class="fi"
+                      placeholder="Your full name">
+                  </div>
+                  <div class="fg">
+                    <label class="fl">Phone Number</label
+                    ><input id="parentPhone" type="tel" class="fi" placeholder="+233 ...">
+                  </div>
+                </div>
+                <div class="fg">
+                  <label class="fl">Email Address</label
+                  ><input id="parentEmail" type="email" class="fi" placeholder="you@email.com">
+                </div>
+                <div class="frow2">
+                  <div class="fg">
+                    <label class="fl">Child's Age</label
+                    ><select id="childAge" class="fs">
+                      <option value="">Select age group</option>
+                      <option>2–3 years</option>
+                      <option>4–5 years</option>
+                      <option>6–8 years</option>
+                      <option>9–11 years</option>
+                      <option>12–14 years</option>
+                    </select>
+                  </div>
+                  <div class="fg">
+                    <label class="fl">Number of Children</label
+                    ><select id="numChildren" class="fs">
+                      <option>1 child</option>
+                      <option>2 children</option>
+                      <option>3 or more</option>
+                    </select>
+                  </div>
+                </div>
+                <div class="fg">
+                  <label class="fl">I'm most interested in</label>
+                  <div class="chips">
+                    <div class="chip" onclick="this.classList.toggle('on')">
+                      Early Development
+                    </div>
+                    <div class="chip" onclick="this.classList.toggle('on')">
+                      STEM Focus
+                    </div>
+                    <div class="chip" onclick="this.classList.toggle('on')">
+                      Arts & Creativity
+                    </div>
+                    <div class="chip" onclick="this.classList.toggle('on')">
+                      Gifted / Advanced
+                    </div>
+                    <div class="chip" onclick="this.classList.toggle('on')">
+                      Not Sure Yet
+                    </div>
+                  </div>
+                </div>
+                <div class="fg">
+                  <label class="fl">Additional context (optional)</label
+                  ><textarea
+                    id="additionalContext"
+                    class="ft"
+                    placeholder="Tell us about your child, any learning goals, or specific challenges…"
+                  ></textarea>
+                </div>
+                <div id="form-error" style="color: #b00020; margin-bottom: 8px; display:none"></div>
+                <button id="submitBtn" class="btn-sub" onclick="submitForm()">
+                  Start Your Child’s Journey
+                  <svg
+                    width="14"
+                    height="14"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-width="2.5"
+                    stroke-linecap="round"
+                  >
+                    <path d="M5 12h14M12 5l7 7-7 7">
+                  </svg>
+                </button>
+              </div>
+              <div class="f-ok" id="f-ok">
+                <div class="f-ok-ico">
+                  <svg
+                    width="28"
+                    height="28"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-width="1.8"
+                    stroke-linecap="round"
+                  >
+                    <path d="M22 11.08V12a10 10 0 11-5.93-9.14">
+                    <polyline points="22 4 12 14.01 9 11.01">
+                  </svg>
+                </div>
+                <div class="f-ok-t">Message received!</div>
+                <div class="f-ok-s">
+                  Our team will reach out within 24 hours with a personalised
+                  programme recommendation and a simple next-step link.
+                </div>
+              </div>
+              <div id="inbox" style="display:none;margin-top:18px;">
+                <div style="font-weight:600;margin-bottom:8px">Admin Inbox (demo)</div>
+                <div style="font-size:13px;color:#555;margin-bottom:8px">Messages received from other tabs or local submissions.</div>
+                <ul id="inbox-list" style="list-style:none;padding:0;margin:0;max-height:220px;overflow:auto;border:1px solid #eee;padding:8px;border-radius:6px"></ul>
+              </div>
+            </div>
+          </div>
+        </div>
+        <footer class="site-footer">
+          <div class="footer-top">
+            <div class="footer-brand">
+              <div class="footer-mark">
+                <svg
+                  width="26"
+                  height="26"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="1.8"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                >
+                  <path d="M12 2C8 2 5 5 5 9c0 2.4 1.1 4.5 2.8 5.9L7 20h10l-.8-5.1C17.9 13.5 19 11.4 19 9c0-4-3-7-7-7z">
+                  <line x1="9" y1="20" x2="15" y2="20">
+                  <line x1="10" y1="23" x2="14" y2="23">
+                </svg>
+              </div>
+              <div>
+                <span>Child Brain Development Academy</span>
+                <h2>Small cohorts. Deep thinking. Human guidance.</h2>
+                <p>
+                  CBDA partners with families to build confident learners
+                  through neuroscience-informed teaching, creative challenge,
+                  and careful personal attention.
+                </p>
+              </div>
+            </div>
+            <div class="footer-cta">
+              <span>Ready to begin?</span>
+              <button type="button" onclick="go('contact', this)">
+                Start Your Child’s Journey
+              </button>
+            </div>
+          </div>
+
+          <div class="footer-mid">
+            <div class="footer-col">
+              <h3>Explore</h3>
+              <button type="button" onclick="go('home', this)">Home</button>
+              <button type="button" onclick="go('programs', this)">Programmes</button>
+              <button type="button" onclick="go('about', this)">About Us</button>
+              <button type="button" onclick="go('games', this)">Game Boards</button>
+            </div>
+            <div class="footer-col">
+              <h3>CBDA Focus</h3>
+              <span>Early cognition</span>
+              <span>STEM confidence</span>
+              <span>Creative intelligence</span>
+              <span>Parent partnership</span>
+            </div>
+            <div class="footer-col footer-contact">
+              <h3>Contact</h3>
+              <span>Nsawam, Ghana</span>
+              <span>Admissions and learner placement</span>
+              <span>Monday - Saturday</span>
+              <button type="button" onclick="go('contact', this)">Send a message</button>
+            </div>
+            <div class="footer-sponsors">
+              <h3>Current Sponsors</h3>
+              <div class="sponsor-grid">
+                <article class="sponsor-card sponsor-blue">
+                  
+                </article>
+                <article class="sponsor-card sponsor-woodin">
+                </article>
+              </div>
+            </div>
+          </div>
+
+          <div class="footer-bottom">
+            <span>© 2026 CBDA. All rights reserved.</span>
+            <span>Designed for children, families, and futures worth building carefully.</span>
+          </div>
+        </footer>
+      </main>
+    </div>
+
+    <!-- ═══ BOTTOM NAV ═══ -->
+    <nav class="bnav" role="navigation" aria-label="Primary navigation">
+      <div class="bnav-inner">
+        <button
+          class="tab on"
+          id="t-home"
+          onclick="go('home', this)"
+          aria-label="Home"
+        >
+          <div class="tab-ind"></div>
+          <div class="tab-ico">
+            <svg
+              width="22"
+              height="22"
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="currentColor"
+              stroke-width="1.8"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+            >
+              <path d="M3 9.5L12 3l9 6.5V20a1 1 0 01-1 1H4a1 1 0 01-1-1V9.5z">
+              <path d="M9 21V12h6v9">
+            </svg>
+          </div>
+          <span class="tab-lbl">Home</span>
+        </button>
+        <button
+          class="tab"
+          id="t-programs"
+          onclick="go('programs', this)"
+          aria-label="Programmes"
+        >
+          <div class="tab-ind"></div>
+          <div class="tab-ico">
+            <svg
+              width="22"
+              height="22"
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="currentColor"
+              stroke-width="1.8"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+            >
+              <path
+                d="M12 2C8 2 5 5 5 9c0 2.4 1.1 4.5 2.8 5.9L7 20h10l-.8-5.1C17.9 13.5 19 11.4 19 9c0-4-3-7-7-7z">
+              <line x1="9" y1="20" x2="15" y2="20">
+            </svg>
+          </div>
+          <span class="tab-lbl">Programmes</span>
+        </button>
+        <button
+          class="tab"
+          id="t-about"
+          onclick="go('about', this)"
+          aria-label="About"
+        >
+          <div class="tab-ind"></div>
+          <div class="tab-ico">
+            <svg
+              width="22"
+              height="22"
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="currentColor"
+              stroke-width="1.8"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+            >
+              <path d="M2 3h6a4 4 0 014 4v14a3 3 0 00-3-3H2z">
+              <path d="M22 3h-6a4 4 0 00-4 4v14a3 3 0 013-3h7z">
+            </svg>
+          </div>
+          <span class="tab-lbl">About</span>
+        </button>
+        <button
+          class="tab"
+          id="t-events"
+          onclick="go('events', this)"
+          aria-label="Events"
+        >
+          <div class="tab-ind"></div>
+          <div class="tab-ico">
+            <svg
+              width="22"
+              height="22"
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="currentColor"
+              stroke-width="1.8"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+            >
+              <rect x="3" y="4" width="18" height="18" rx="2">
+              <line x1="16" y1="2" x2="16" y2="6">
+              <line x1="8" y1="2" x2="8" y2="6">
+              <line x1="3" y1="10" x2="21" y2="10">
+            </svg>
+          </div>
+          <span class="tab-lbl">Events</span>
+        </button>
+        <button
+          class="tab"
+          id="t-contact"
+          onclick="go('contact', this)"
+          aria-label="Contact"
+        >
+          <div class="tab-ind"></div>
+          <div class="tab-ico">
+            <svg
+              width="22"
+              height="22"
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="currentColor"
+              stroke-width="1.8"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+            >
+              <path
+                d="M21 15a2 2 0 01-2 2H7l-4 4V5a2 2 0 012-2h14a2 2 0 012 2z">
+            </svg>
+          </div>
+          <span class="tab-lbl">Contact</span>
+        </button>
+        <button
+          class="tab"
+          id="t-games"
+          onclick="go('games', this)"
+          aria-label="Games"
+        >
+          <div class="tab-ind"></div>
+          <div class="tab-ico">
+            <svg
+              width="18"
+              height="18"
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="currentColor"
+              stroke-width="1.8"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+            >
+              <rect x="2" y="7" width="20" height="14" rx="2">
+              <path d="M16 7V5a2 2 0 00-2-2h-4a2 2 0 00-2 2v2">
+              <line x1="12" y1="12" x2="12" y2="16">
+              <line x1="10" y1="14" x2="14" y2="14">
+            </svg>
+          </div>
+          <span class="tab-lbl">Games</span>
+        </button>
+      </div>
+    </nav>
+
+    <!-- LIGHTBOX -->
+    <div class="lbox" id="lbox" onclick="closeLbox(event)">
+      <div class="lbox-in">
+        <button class="lbox-close" onclick="closeLbox(null)">
+          <svg
+            width="14"
+            height="14"
+            viewBox="0 0 24 24"
+            fill="none"
+            stroke="currentColor"
+            stroke-width="2.5"
+            stroke-linecap="round"
+          >
+            <line x1="18" y1="6" x2="6" y2="18">
+            <line x1="6" y1="6" x2="18" y2="18">
+          </svg>
+        </button>
+        <div class="lbox-img"><img id="li" src="" alt=""></div>
+        <div class="lbox-body">
+          <div class="lbox-t" id="lt"></div>
+          <div class="lbox-s" id="ls"></div>
+        </div>
+      </div>
+    </div>
+    <script src="index.js"></script>
+  </body>
+</html>
